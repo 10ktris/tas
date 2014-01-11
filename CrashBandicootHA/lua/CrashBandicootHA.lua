@@ -77,7 +77,6 @@ function env()
 	area = readvalue({["adresse"] = 0x02010E06, ["lenght"] = 1, ["sign"] = "signed"})
 	areab = readvalue({["adresse"] = 0x02010DD1, ["lenght"] = 1, ["sign"] = "signed"})
 	txt = ""
-	color = "white"
 	if area == 1 or area == 2 or areab == 1 or areab == 32 then
 		if floor == 0 then
 			txt = "GROUND"
